@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Use - DigiMind</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            overflow: hidden;
+        }
+        
+        .header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .header .subtitle {
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+        
+        .language-tabs {
+            display: flex;
+            background: #f5f5f5;
+            border-bottom: 2px solid #e0e0e0;
+        }
+        
+        .language-tab {
+            flex: 1;
+            padding: 15px;
+            text-align: center;
+            cursor: pointer;
+            background: #f5f5f5;
+            border: none;
+            font-size: 1em;
+            font-weight: 600;
+            color: #666;
+            transition: all 0.3s;
+        }
+        
+        .language-tab:hover {
+            background: #e8e8e8;
+        }
+        
+        .language-tab.active {
+            background: white;
+            color: #667eea;
+            border-bottom: 3px solid #667eea;
+        }
+        
+        .content {
+            padding: 40px;
+        }
+        
+        .document {
+            display: none;
+        }
+        
+        .document.active {
+            display: block;
+        }
+        
+        .last-updated {
+            background: #f0f4ff;
+            padding: 10px 15px;
+            border-radius: 8px;
+            color: #667eea;
+            font-weight: 600;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-left: 4px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        h3 {
+            color: #764ba2;
+            margin-top: 25px;
+            margin-bottom: 12px;
+            font-size: 1.3em;
+        }
+        
+        p {
+            margin-bottom: 15px;
+            color: #555;
+        }
+        
+        strong {
+            color: #333;
+        }
+        
+        ul, ol {
+            margin: 15px 0;
+            padding-left: 25px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        a {
+            color: #667eea;
+            text-decoration: none;
+            word-break: break-all;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .highlight {
+            background-color: #fff9e6;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #ffc107;
+            margin: 20px 0;
+        }
+        
+        .important {
+            background-color: #f0f4ff;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #667eea;
+            margin: 20px 0;
+        }
+        
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+        
+        .contact-box h2 {
+            color: white;
+            border-left: 4px solid white;
+            margin-top: 0;
+        }
+        
+        .contact-box a {
+            color: #fff;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 30px;
+            background: #f5f5f5;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            .content {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            h2 {
+                font-size: 1.5em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>DigiMind</h1>
+            <p class="subtitle">Terms of Use</p>
+        </div>
+
+        <div class="language-tabs">
+            <button class="language-tab active" onclick="switchLanguage('en')">English</button>
+            <button class="language-tab" onclick="switchLanguage('tr')">Türkçe</button>
+        </div>
+
+        <div class="content">
+            <!-- ENGLISH -->
+            <div id="en" class="document active">
+                <div class="last-updated">Last updated: March 11, 2026</div>
+
+                <h2>Terms of Use</h2>
+
+                <section>
+                    <h3>1. Acceptance of Terms</h3>
+                    <p>By downloading, installing, or using DigiMind ("the App"), you agree to be bound by these Terms of Use. If you do not agree to these terms, please do not use the App.</p>
+                </section>
+
+                <section>
+                    <h3>2. Description of Service</h3>
+                    <p>DigiMind is a strategic number guessing game with an AI opponent. The App provides:</p>
+                    <ul>
+                        <li>Single-player gameplay against AI</li>
+                        <li>Multiple difficulty levels</li>
+                        <li>Game statistics tracking</li>
+                        <li>Optional premium features (ad-free experience)</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>3. License</h3>
+                    <p>We grant you a limited, non-exclusive, non-transferable, revocable license to use the App for personal, non-commercial purposes. You may not:</p>
+                    <ul>
+                        <li>Copy, modify, or distribute the App</li>
+                        <li>Reverse engineer or decompile the App</li>
+                        <li>Remove any copyright or proprietary notices</li>
+                        <li>Use the App for any illegal purposes</li>
+                        <li>Attempt to gain unauthorized access to the App's systems</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>4. In-App Purchases</h3>
+                    <p>The App offers optional in-app purchases for premium features. All purchases are processed through Google Play Billing and are subject to Google Play's terms and conditions.</p>
+                    <div class="highlight">
+                        <p><strong>Important:</strong></p>
+                        <ul>
+                            <li>All purchases are final and non-refundable except as required by law</li>
+                            <li>Premium features are linked to your Google Play account</li>
+                            <li>Prices may vary by region and are subject to change</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>5. Advertisements</h3>
+                    <p>The free version of the App displays advertisements provided by Google AdMob. By using the free version, you agree to view these advertisements. You can remove ads by purchasing the premium version.</p>
+                </section>
+
+                <section>
+                    <h3>6. User Conduct</h3>
+                    <p>You agree to use the App responsibly and not to:</p>
+                    <ul>
+                        <li>Use any automated systems or software to extract data from the App</li>
+                        <li>Interfere with or disrupt the App's functionality</li>
+                        <li>Attempt to hack, manipulate, or exploit the App</li>
+                        <li>Use the App in any way that violates applicable laws or regulations</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>7. Intellectual Property</h3>
+                    <p>All content, features, and functionality of the App, including but not limited to:</p>
+                    <ul>
+                        <li>Software code and architecture</li>
+                        <li>Graphics, user interface, and visual design</li>
+                        <li>Game mechanics and algorithms</li>
+                        <li>Text, images, and other content</li>
+                    </ul>
+                    <p>are owned by DigiMind and are protected by international copyright, trademark, and other intellectual property laws.</p>
+                </section>
+
+                <section>
+                    <h3>8. Disclaimer of Warranties</h3>
+                    <div class="important">
+                        <p>THE APP IS PROVIDED "AS IS" AND "AS AVAILABLE" WITHOUT WARRANTIES OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO:</p>
+                        <ul>
+                            <li>Warranties of merchantability or fitness for a particular purpose</li>
+                            <li>Warranties that the App will be uninterrupted or error-free</li>
+                            <li>Warranties regarding the accuracy or reliability of any content</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>9. Limitation of Liability</h3>
+                    <p>TO THE MAXIMUM EXTENT PERMITTED BY LAW, DigiMind SHALL NOT BE LIABLE FOR ANY:</p>
+                    <ul>
+                        <li>Indirect, incidental, special, or consequential damages</li>
+                        <li>Loss of profits, data, or use</li>
+                        <li>Damages resulting from your use or inability to use the App</li>
+                        <li>Damages arising from third-party services (Google AdMob, Google Play Billing)</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>10. Updates and Modifications</h3>
+                    <p>We reserve the right to:</p>
+                    <ul>
+                        <li>Update, modify, or discontinue the App at any time</li>
+                        <li>Change these Terms of Use without prior notice</li>
+                        <li>Add or remove features from the App</li>
+                    </ul>
+                    <p>Your continued use of the App after any changes constitutes acceptance of the new terms.</p>
+                </section>
+
+                <section>
+                    <h3>11. Termination</h3>
+                    <p>We may terminate or suspend your access to the App immediately, without prior notice or liability, if you breach these Terms of Use. Upon termination, your right to use the App will immediately cease.</p>
+                </section>
+
+                <section>
+                    <h3>12. Governing Law</h3>
+                    <p>These Terms of Use shall be governed by and construed in accordance with the laws of Turkey, without regard to its conflict of law provisions.</p>
+                </section>
+
+                <section>
+                    <h3>13. Severability</h3>
+                    <p>If any provision of these Terms is found to be unenforceable or invalid, that provision shall be limited or eliminated to the minimum extent necessary, and the remaining provisions shall remain in full force and effect.</p>
+                </section>
+
+                <div class="contact-box">
+                    <h2>Contact Information</h2>
+                    <p>For questions about these Terms of Use, please contact us at:</p>
+                    <p>Email: <a href="mailto:support@digimind.game">support@digimind.game</a></p>
+                </div>
+            </div>
+
+            <!-- TURKISH -->
+            <div id="tr" class="document">
+                <div class="last-updated">Son güncelleme: 11 Mart 2026</div>
+
+                <h2>Kullanım Koşulları</h2>
+
+                <section>
+                    <h3>1. Koşulların Kabulü</h3>
+                    <p>DigiMind'ı ("Uygulama") indirerek, yükleyerek veya kullanarak, bu Kullanım Koşulları'na bağlı kalmayı kabul edersiniz. Bu koşulları kabul etmiyorsanız, lütfen Uygulamayı kullanmayın.</p>
+                </section>
+
+                <section>
+                    <h3>2. Hizmet Açıklaması</h3>
+                    <p>DigiMind, yapay zeka rakiple stratejik bir sayı tahmin oyunudur. Uygulama şunları sağlar:</p>
+                    <ul>
+                        <li>Yapay zekaya karşı tek oyunculu oyun</li>
+                        <li>Birden fazla zorluk seviyesi</li>
+                        <li>Oyun istatistikleri takibi</li>
+                        <li>İsteğe bağlı premium özellikler (reklamsız deneyim)</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>3. Lisans</h3>
+                    <p>Size, Uygulamayı kişisel, ticari olmayan amaçlarla kullanmak için sınırlı, münhasır olmayan, devredilemez, geri alınabilir bir lisans veriyoruz. Şunları yapamazsınız:</p>
+                    <ul>
+                        <li>Uygulamayı kopyalayamaz, değiştiremez veya dağıtamazsınız</li>
+                        <li>Uygulamayı tersine mühendislik veya derleyemezsiniz</li>
+                        <li>Telif hakkı veya mülkiyet bildirimlerini kaldıramazsınız</li>
+                        <li>Uygulamayı herhangi bir yasa dışı amaç için kullanamazsınız</li>
+                        <li>Uygulamanın sistemlerine yetkisiz erişim sağlamaya çalışamazsınız</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>4. Uygulama İçi Satın Alımlar</h3>
+                    <p>Uygulama, premium özellikler için isteğe bağlı uygulama içi satın alımlar sunar. Tüm satın alımlar Google Play Faturalandırma üzerinden işlenir ve Google Play'in şartlarına ve koşullarına tabidir.</p>
+                    <div class="highlight">
+                        <p><strong>Önemli:</strong></p>
+                        <ul>
+                            <li>Tüm satın alımlar kesindir ve yasaların gerektirdiği durumlar dışında iade edilemez</li>
+                            <li>Premium özellikler Google Play hesabınıza bağlıdır</li>
+                            <li>Fiyatlar bölgelere göre değişebilir ve değişikliğe tabidir</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>5. Reklamlar</h3>
+                    <p>Uygulamanın ücretsiz sürümü, Google AdMob tarafından sağlanan reklamları görüntüler. Ücretsiz sürümü kullanarak, bu reklamları görüntülemeyi kabul edersiniz. Premium sürümü satın alarak reklamları kaldırabilirsiniz.</p>
+                </section>
+
+                <section>
+                    <h3>6. Kullanıcı Davranışı</h3>
+                    <p>Uygulamayı sorumlu bir şekilde kullanmayı ve şunları yapmamayı kabul edersiniz:</p>
+                    <ul>
+                        <li>Uygulamadan veri çıkarmak için otomatik sistemler veya yazılımlar kullanmak</li>
+                        <li>Uygulamanın işlevselliğine müdahale etmek veya bozmak</li>
+                        <li>Uygulamayı hacklemeye, manipüle etmeye veya sömürmeye çalışmak</li>
+                        <li>Uygulamayı geçerli yasaları veya düzenlemeleri ihlal edecek şekilde kullanmak</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>7. Fikri Mülkiyet</h3>
+                    <p>Uygulamanın tüm içeriği, özellikleri ve işlevselliği, bunlarla sınırlı olmamak üzere:</p>
+                    <ul>
+                        <li>Yazılım kodu ve mimarisi</li>
+                        <li>Grafikler, kullanıcı arayüzü ve görsel tasarım</li>
+                        <li>Oyun mekanikleri ve algoritmaları</li>
+                        <li>Metin, görseller ve diğer içerikler</li>
+                    </ul>
+                    <p>DigiMind'a aittir ve uluslararası telif hakkı, ticari marka ve diğer fikri mülkiyet yasalarıyla korunmaktadır.</p>
+                </section>
+
+                <section>
+                    <h3>8. Garanti Reddi</h3>
+                    <div class="important">
+                        <p>UYGULAMA "OLDUĞU GİBİ" VE "MEVCUT OLDUĞU HALIYLE" HERHANGİ BİR GARANTİ OLMAKSIZIN SAĞLANIR:</p>
+                        <ul>
+                            <li>Ticari elverişlilik veya belirli bir amaca uygunluk garantisi</li>
+                            <li>Uygulamanın kesintisiz veya hatasız olacağına dair garanti</li>
+                            <li>Herhangi bir içeriğin doğruluğu veya güvenilirliğine ilişkin garanti</li>
+                        </ul>
+                    </div>
+                </section>
+
+                <section>
+                    <h3>9. Sorumluluk Sınırlaması</h3>
+                    <p>YASALARIN İZİN VERDİĞİ AZAMİ ÖLÇÜDE, DigiMind AŞAĞIDAKILERDEN SORUMLU DEĞİLDİR:</p>
+                    <ul>
+                        <li>Dolaylı, arızi, özel veya sonuç olarak ortaya çıkan zararlar</li>
+                        <li>Kar, veri veya kullanım kaybı</li>
+                        <li>Uygulamayı kullanımınızdan veya kullanamamanızdan kaynaklanan zararlar</li>
+                        <li>Üçüncü taraf hizmetlerinden (Google AdMob, Google Play Faturalandırma) kaynaklanan zararlar</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h3>10. Güncellemeler ve Değişiklikler</h3>
+                    <p>Şunları yapma hakkını saklı tutarız:</p>
+                    <ul>
+                        <li>Uygulamayı istediğimiz zaman güncelleme, değiştirme veya sonlandırma</li>
+                        <li>Bu Kullanım Koşullarını önceden haber vermeden değiştirme</li>
+                        <li>Uygulamadan özellik ekleme veya kaldırma</li>
+                    </ul>
+                    <p>Herhangi bir değişiklikten sonra Uygulamayı kullanmaya devam etmeniz, yeni koşulların kabulü anlamına gelir.</p>
+                </section>
+
+                <section>
+                    <h3>11. Sonlandırma</h3>
+                    <p>Bu Kullanım Koşullarını ihlal ederseniz, önceden haber vermeksizin veya sorumluluk olmaksızın Uygulamaya erişiminizi derhal sonlandırabilir veya askıya alabiliriz. Sonlandırma durumunda, Uygulamayı kullanma hakkınız derhal sona erecektir.</p>
+                </section>
+
+                <section>
+                    <h3>12. Geçerli Yasa</h3>
+                    <p>Bu Kullanım Koşulları, çatışan hukuk hükümleri dikkate alınmaksızın Türkiye yasalarına göre yönetilecek ve yorumlanacaktır.</p>
+                </section>
+
+                <section>
+                    <h3>13. Ayrılabilirlik</h3>
+                    <p>Bu Koşullar'ın herhangi bir hükmünün uygulanamaz veya geçersiz olduğu tespit edilirse, bu hüküm gerekli minimum ölçüde sınırlandırılacak veya ortadan kaldırılacak ve kalan hükümler tam olarak yürürlükte kalacaktır.</p>
+                </section>
+
+                <div class="contact-box">
+                    <h2>İletişim Bilgileri</h2>
+                    <p>Bu Kullanım Koşulları hakkında sorularınız için lütfen bizimle iletişime geçin:</p>
+                    <p>E-posta: <a href="mailto:support@digimind.game">support@digimind.game</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>&copy; 2026 DigiMind. All rights reserved.</p>
+        </div>
+    </div>
+
+    <script>
+        let currentLang = 'en';
+
+        function switchLanguage(lang) {
+            currentLang = lang;
+            
+            // Hide all documents
+            document.querySelectorAll('.document').forEach(doc => {
+                doc.classList.remove('active');
+            });
+            
+            // Show selected language
+            const selectedDoc = document.getElementById(lang);
+            if (selectedDoc) {
+                selectedDoc.classList.add('active');
+            }
+            
+            // Update tab styling
+            document.querySelectorAll('.language-tab').forEach(tab => {
+                tab.classList.remove('active');
+            });
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
